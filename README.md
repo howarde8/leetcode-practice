@@ -4,4 +4,5 @@
 
 ## 題目
 
-9. [Palindrome Number](leetcode-9-palindrome-number)
+- [9. Palindrome Number](leetcode-9-palindrome-number)
+- [26. Remove Duplicates from Sorted Array](leetcode-26-remove-duplicates-from-sorted-array)
