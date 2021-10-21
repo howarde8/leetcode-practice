@@ -108,23 +108,6 @@ After   [0,1,2,3,4,_,_,_,_,_]
 
 我的 Python3 解答如 [solution.py](solution.py)
 
-```py
-class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
-        if len(nums) == 0:
-            return False
-
-        num = nums[0]
-        k = 1
-        for i in range(1, len(nums)):
-            if num != nums[i]:
-                nums[k] = nums[i]
-                num = nums[i]
-                k += 1
-
-        return k
-```
-
 ## 總結
 
 這一題看起來簡單，但其實細節處理有點麻煩。要用變數儲存 index、最大的不重複數字等等，有很多種方法可以做，重要的是定義要清楚，多一個少一個都會讓程式跑失敗。
