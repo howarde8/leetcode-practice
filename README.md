@@ -6,3 +6,4 @@
 
 - [9. Palindrome Number](leetcode-9-palindrome-number)
 - [26. Remove Duplicates from Sorted Array](leetcode-26-remove-duplicates-from-sorted-array)
+- [35. Search Insert Position](leetcode-35-search-insert-position)
